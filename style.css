@@ -150,3 +150,15 @@ button.second-button {
     padding-left: 100px;
     width: 500px;
 }
+.footer {
+    display: flex;
+    background: #1F2937;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+}
+.copyright {
+    color: #E5E7EB;
+    font-size: 12px;
+    font-weight: 100;
+}
