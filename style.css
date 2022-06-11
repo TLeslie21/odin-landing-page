@@ -49,13 +49,29 @@ button.first-button {
     border-style: solid;
     width: 75px;
 }
-.info{
+.information{
     font-size: 36px;
     font-weight: 700;
     color: #1F2937;
     text-align: center;
 }
 .second-img, .third-img, .fourth-img, .fifth-img {
-    border:2px solid rgb(20, 149, 255);
+    display: flex;
+    border: 3px solid rgb(20, 149, 255);
     border-radius: 20px;
+    width: 175px;
+    height: 175px;
+    margin-bottom: 8px;
+}
+.info {
+    max-width: 175px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.text {
+    color: rgb(92, 92, 92);
+    text-align: center;
 }
